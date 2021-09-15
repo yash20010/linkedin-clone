@@ -2,6 +2,7 @@ import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './Sidebar.css'
 import background from './assets/images/background.jpg'
+import avatarImage from './assets/images/yp_avatar.png'
 
 function Sidebar() {
   const recentItem = (topic) => {
@@ -17,7 +18,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar__top">
         <img src={background} alt="Rainbow coloured Planet" />
-        <Avatar className="sidebar__avatar" />
+        <Avatar className="sidebar__avatar" src={avatarImage} />
         <h2>Yash Parekh</h2>
         <h4>yash20010@gmail.com</h4>
       </div>
